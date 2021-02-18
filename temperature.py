@@ -1,3 +1,5 @@
+from tqdm import tqdm
+import time
 import requests
 import os
 from bs4 import BeautifulSoup
@@ -11,4 +13,6 @@ def weather(place):
 os.system('figlet Temperature')
 if __name__=='__main__':
     place = str(input('place: '))
+    for i in tqdm(range(100)):
+        time.sleep(0.2)
     print (f'current temperature in {place}: {weather(place)}')
