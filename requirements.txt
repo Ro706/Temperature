@@ -1,0 +1,4 @@
+gtts 
+tqdm
+requests
+bs4 
