@@ -15,7 +15,7 @@ os.system('figlet Temperature')
 if __name__=='__main__':
     place = str(input('place: '))
     for i in tqdm(range(100)):
-        time.sleep(0.2)
+        time.sleep(0.01)
     a = f'current temperature in {place}: {weather(place)}'
     language ='en'
     output = gTTS(text=a,lang=language)
