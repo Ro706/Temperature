@@ -9,5 +9,5 @@ $ cd Temperature
 $ python temp.py
 ```
 #how to use 
-<img width="902" alt="demo" src="https://github.com/Ro706/Temperature/blob/main/try.png">
+<img width="902" alt="demo" src="https://drive.google.com/file/d/1joSFAb0ztW9ns6ijVAmCF-fbhPAmrHNA/view?usp=share_link">
 
