@@ -1,6 +1,13 @@
-# Temperature<br>
-Medical definitions for temperature<br>
-The degree of hotness or coldness of a body<br>
- or an environment. ... The degree of heat<br>
- in the body of a living organism, usually<br>
- about 37.0°C (98.6°F) in humans.<br>
+# Temperature
+This program is made for getting a temperature. This is a simple program to take the information from the web and display and tell the temperature of your local area.
+
+#how  to install it 
+```shell 
+$ pip install -r requirements.txt
+$ git clone https://github.com/Ro706/Temperature.git
+$ cd Temperature
+$ python3 temp.py
+```
+
+#how to use 
+
