@@ -2,3 +2,4 @@ gtts
 tqdm
 requests
 bs4 
+pyttsx3
