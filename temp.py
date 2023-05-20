@@ -4,6 +4,11 @@ import time
 import requests
 import os
 from bs4 import BeautifulSoup
+def speech(a):
+    import pyttsx3
+    engine = pyttsx3.init()
+    engine.say(a)
+    engine.runAndWait()
 os.system('clear')
 def weather(place):
     url = f"https://www.google.com/search?q=weather in {place}"
@@ -17,7 +22,4 @@ if __name__=='__main__':
     for i in tqdm(range(100)):
         time.sleep(0.01)
     a = f'current temperature in {place}: {weather(place)}'
-    language ='en'
-    output = gTTS(text=a,lang=language)
-    output.save('temp.mp3')
-    os.system("mpv /data/data/com.termux/files/home/temp.mp3")
+    speech(a)
