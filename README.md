@@ -4,10 +4,9 @@ This program is made for getting a temperature. This is a simple program to take
 #how  to install it 
 ```shell 
 $ pip install -r requirements.txt
-$ git clone [https://github.com/Ro706/Temperature.git](https://github.com/Ro706/Temperature.git)
+$ git clone https://github.com/Ro706/Temperature.git
 $ cd Temperature
 $ python3 temp.py
 ```
-
 #how to use 
 
