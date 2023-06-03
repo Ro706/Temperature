@@ -1,4 +1,4 @@
-from gtts import gTTS
+import pyttsx3
 from tqdm import tqdm
 import time
 import requests
@@ -8,7 +8,6 @@ from pyfiglet import Figlet
 f = Figlet(font='slant')
 print (f.renderText('Temperature'))
 def speech(a):
-    import pyttsx3
     engine = pyttsx3.init()
     engine.say(a)
     engine.runAndWait()
