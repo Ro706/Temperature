@@ -13,3 +13,4 @@ $ python temp.py
 
 ![try](https://github.com/Ro706/Temperature/assets/60247178/19629685-f5d8-45fb-b29b-dda389b2dd07)
 
+~made by Ro706~
